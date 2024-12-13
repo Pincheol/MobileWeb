@@ -3,6 +3,11 @@
 
 ### -src/App.js
 TO-DO List의 메인 컴포넌트.
+주요 기능으로는
+1. 투두 리스트 관리 (AsyncStorage를 사용하여 데이터 저장)
+2. 캘린더 뷰 기능 (react-native-calendars 라이브러리를 사용)
+3. expo-av를 통해 음성을 녹음하고 Node.js 서버로 전송
+4. 음성 녹음을 위한 모달 작성
 
 ### -src/images.js
 아이콘 파일을 관리하기 위한 컴포넌트.
