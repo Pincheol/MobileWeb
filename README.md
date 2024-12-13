@@ -1,26 +1,26 @@
 # MobileWeb
 모바일 앱 개발 최종과제 코드
 
-### src/App.js
+### -src/App.js
 TO-DO List의 메인 컴포넌트.
 
-### src/images.js
+### -src/images.js
 아이콘 파일을 관리하기 위한 컴포넌트.
 
-### src/theme.js
+### -src/theme.js
 앱의 테마를 정의한 컴포넌트.
 
-### src/components/BackColor.js
+### -src/components/BackColor.js
 앱의 테마를 전환하는 컴포넌트.
 themeMode와 toggleTheme을 props로 받아 현재 테마 모드에 따라 버튼의 텍스트와 동작을 결정.
 
-### src/components/IconButton.js
+### -src/components/IconButton.js
 아이콘 버튼을 구현한 컴포넌트.
 
-### src/components/input.js
+### -src/components/input.js
 사용자 입력을 위한 텍스트 입력 컴포넌트.
 
-### src/components/Task.js
+### -src/components/Task.js
 투두 리스트의 작성된 리스트를 표시하고 관리하는 컴포넌트.
 주요 기능으로는
 1. 체크 버튼
@@ -32,7 +32,7 @@ themeMode와 toggleTheme을 props로 받아 현재 테마 모드에 따라 버�
 4. 수정 입력
    -포커스를 잃거나 완료버튼을 누르면 수정 종료
    
-### Backend/index.js
+### -Backend/index.js
 Node.js 기반의 Express 서버 코드.
 주요 기능으로는 
 1. FFmpeg를 사용하여 음성파일(.3gp, .caf)을 .wav파일로 변환
