@@ -2,7 +2,7 @@
 모바일 앱 개발 최종과제 코드
 
 ### -src/App.js
-TO-DO List의 메인 컴포넌트. &nbsp; 
+TO-DO List의 메인 컴포넌트. <br/>
 주요 기능으로는
 1. 투두 리스트 관리 (AsyncStorage를 사용하여 데이터 저장)
 2. 캘린더 뷰 기능 (react-native-calendars 라이브러리를 사용)
@@ -17,7 +17,7 @@ TO-DO List의 메인 컴포넌트. &nbsp;
 
 ### -src/components/BackColor.js
 앱의 테마를 전환하는 컴포넌트.
- &nbsp; themeMode와 toggleTheme을 props로 받아 현재 테마 모드에 따라 버튼의 텍스트와 동작을 결정.
+<br/>themeMode와 toggleTheme을 props로 받아 현재 테마 모드에 따라 버튼의 텍스트와 동작을 결정.
 
 ### -src/components/IconButton.js
 아이콘 버튼을 구현한 컴포넌트.
@@ -26,7 +26,7 @@ TO-DO List의 메인 컴포넌트. &nbsp;
 사용자 입력을 위한 텍스트 입력 컴포넌트.
 
 ### -src/components/Task.js
-투두 리스트의 작성된 리스트를 표시하고 관리하는 컴포넌트. &nbsp; 
+투두 리스트의 작성된 리스트를 표시하고 관리하는 컴포넌트. <br/>
 주요 기능으로는
 1. 체크 버튼
    -completed 값에 따라 아이콘과 스타일링 변경
@@ -38,7 +38,7 @@ TO-DO List의 메인 컴포넌트. &nbsp;
    -포커스를 잃거나 완료버튼을 누르면 수정 종료
    
 ### -Backend/index.js
-Node.js 기반의 Express 서버 코드. &nbsp; 
+Node.js 기반의 Express 서버 코드. <br/>
 주요 기능으로는 
 1. FFmpeg를 사용하여 음성파일(.3gp, .caf)을 .wav파일로 변환
 2. Multer을 이용한 음성 파일 업로드 처리
